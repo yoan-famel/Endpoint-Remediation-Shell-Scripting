@@ -1,3 +1,6 @@
+#Employees complained of latencies on their remote.
+#This scriot help with troubleshooting by deploying/decompressing the Ookla speed test on a remote PC to test its connection speed.
+
 $ST_intro = @"
  __   ___   ____  ____  ___      _____  ____  __  _____ 
 ( (` | |_) | |_  | |_  | | \      | |  | |_  ( (`  | |  
