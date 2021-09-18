@@ -2,6 +2,7 @@
 #Black screens were observed on a large scale throughout the company, to troubleshoot this issue I came up with this script to identify which driver was installed in order to remove it.
 #In some cases it was observed the GPU encoding capability was the main issue, where I used another script. See 'GPU-audit.ps1'.
 
+#Grab the hostnames from a list
 $computerList = "C:\Storage\vdd-update\lists\pc-list.txt"
 
 ForEach ($computer in (Get-Content $computerList)) {
