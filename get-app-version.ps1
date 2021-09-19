@@ -13,7 +13,7 @@ while ($true) {
 				$appVersion = Get-ItemProperty HKLM:\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\* | Select-Object DisplayName, DisplayVersion, InstallDate | where {$_.DisplayName -like "*[placeholder]*"} | ft -HideTableHeaders
 				$appVersion
 			}
-	}
+		}
 		
 	} Else {
 		
