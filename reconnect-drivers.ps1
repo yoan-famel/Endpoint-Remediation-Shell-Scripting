@@ -1,3 +1,6 @@
+#	Small project to try and find a fix for recuring crashes and avoid having to physically reconnect the device.
+#	Which would then enable remote troubleshooting.
+#
 #	References
 #	-----
 #	PnpDevice
