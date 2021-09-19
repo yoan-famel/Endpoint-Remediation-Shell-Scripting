@@ -17,7 +17,7 @@
 #	Won't work if a user is connected to the target as a PC reboot is needed
 #	Won't work if disconnected either, PC reboot needed
 #	Won't work if [placeholder]] is not running, PC reboot needed
-#	Seems to work after using devcon.exe restart 'USB\VID_057E*' with [placeholder]] closed
+#	Seems to work after using devcon.exe restart 'USB\VID_057E*' with [placeholder] closed
 #	Not able to connect to the target with error_39 in [placeholder]] logs if not followed by devcon.exe enable 'USB\VID_057E*'
 #	
 #	devcon.exe enable 'USB\VID_057E*'
@@ -29,18 +29,16 @@
 #	[...]
 #
 #	...More tests to come...
-#	Commenting Invoke-Command for now, GPOs or SPNs active
+#	Commenting Invoke-Command for now, GPOs or SPNs active and preventing remote connections
 #	
 #	So far devcon doesn't seem to be stable with [placeholder] as in doesn't work in 100%, need to find the right commands order restart/disable/enable and/or restart again if needed
-#	
-#	Would allow consoles to be reconnected across studios if it works
 #
 #	Could be launched remotely from Ops or locally by testers 
 
 #shared location to define
 #$devConInstaller = "C:\Storage\devcon.exe"
 
-$devConInstaller = "\\ptw-i.com\lqa\Software\All_Software\Parsec\devcon.exe"
+$devConInstaller = "\\[placeholder]\devcon.exe"
 
 $i = Read-Host "PC"
 
