@@ -1,3 +1,6 @@
+# A quick script that returns online statuses and IPs of several hosts at once.
+# Really handy when bunch of PCs are moved around every so often that way I can determine whether or not they are on a VLAN.
+
 $computerList = "C:\Storage\lists\ping-list.txt"
 
 ForEach ($computer in (Get-Content $computerList)) {
