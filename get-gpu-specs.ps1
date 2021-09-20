@@ -1,4 +1,4 @@
-$i = Read-Host "PC"
+$i = [System.Net.Dns]::GetHostName()
 ForEach ($i in $pc) {	
 
 	$testCo = Test-Connection -BufferSize 32 -Count 1 -ComputerName $i -Quiet
