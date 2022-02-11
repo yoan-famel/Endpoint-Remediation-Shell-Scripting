@@ -1,6 +1,3 @@
-#From a T1 IT position I wanted to find an efficient way to display how much free space domain PCs had available on their drive upstream of files deployment.
-#This is where this script comes handy as it lists the latter across the network rather than checking it manually on each machines.
-
 $DSC_intro = @"
  ___   _   __   _         __   ___    __    __    ____      __    _     ____  __    _     ____  ___  
 | | \ | | ( (` | |_/     ( (` | |_)  / /\  / /`  | |_      / /`  | |_| | |_  / /`  | |_/ | |_  | |_) 
