@@ -9,3 +9,4 @@ Get-NetIPInterface
 
 # Revert DNS adresses to auto configuration
 Set-DnsClientServerAddress -InterfaceAlias Ethernet* -ResetServerAddresses
+ipconfig /flushdns
