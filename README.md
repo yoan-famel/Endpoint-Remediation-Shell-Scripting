@@ -1,2 +1,2 @@
 # PowerShell
-A collection of automation scripts for routine tasks I worked on.
+A series of PowerShell scripts that I've created to streamline and automate various routine tasks.
