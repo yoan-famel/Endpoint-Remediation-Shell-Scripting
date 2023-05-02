@@ -1,6 +1,6 @@
 $computer = $env:COMPUTERNAME
 
-$useraccounts = Get-ChildItem -path \\$computer\c$\users\ -Exclude public,[include-profile-names-that-needs-to-be-avoided] | Where-Object {$_.Special -ne 'Special'} | Select-Object Name
+$useraccounts = Get-ChildItem -path \\$computer\c$\users\ -Exclude public,[include-profile-names-that-should-be-avoided] | Where-Object {$_.Special -ne 'Special'} | Select-Object Name
 
 $sort = $useraccounts | ForEach-Object {$_.Name}
 
