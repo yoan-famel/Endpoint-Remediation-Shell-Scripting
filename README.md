@@ -1,3 +1,5 @@
+![alt text](https://github.com/yoan-famel/PowerShell/blob/main/Docs/Images/test-center-banner.jpg)
+
 # PowerShell Scripts Repository
 
 Welcome to my repository of PowerShell scripts! 
