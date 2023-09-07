@@ -21,7 +21,7 @@ Feel free to explore the scripts, try them out, and contribute to the repository
 
 ## Scripts
 
-Here is a brief overview of the scripts you'll find in this repository:
+Here is a brief overview of the scripts you will find in this repository:
 
 ### Automation
 - [enable-wake-on-magic-packets.ps1](https://github.com/yoan-famel/PowerShell/blob/main/Automation/enable-wake-on-magic-packets.ps1): Enables Wake-on-Magic-Packets functionality for a network adapter in a Windows environment, allowing the computer to wake up from a sleep or hibernation state when specific network packets are received.
