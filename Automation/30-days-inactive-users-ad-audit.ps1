@@ -2,7 +2,7 @@
 Import-Module ActiveDirectory
 
 # Set the OU distinguished name where you want to search for inactive users (change the values to point to your own DC)
-$ouDN = "OU=Glasgow,DC=ptw-i,DC=com"
+$ouDN = "OU=example,DC=domain,DC=com"
 
 # Set the number of days of inactivity
 $inactiveDays = 30
