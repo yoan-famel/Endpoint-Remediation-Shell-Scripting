@@ -2,7 +2,7 @@
 
 # Scripts Repository
 
-![Visitor Badge](https://visitor-badge.glitch.me/badge?page_id=yoan-famel.Endpoint-Remediation)
+![Visits](https://img.shields.io/badge/visits-2648-brightgreen?style=for-the-badge)
 
 Welcome to my scripts repository.
 
