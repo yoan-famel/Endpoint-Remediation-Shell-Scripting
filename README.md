@@ -53,8 +53,9 @@ Here is a brief overview of the scripts you will find in this repository:
 ## Usage
 
 Please note that while some scripts can be used as-is, others may require amendments or configuration adjustments to run in your environment.
+
 In some cases it could be a good idea to review them, some are standalones while others can be fully integrated to detections/remediations from the get go to Intune.
-Since most are PowerShell for now anyway :)
+Since most are PowerShell for now anyway =)
 
 Here's a general guide to running PowerShell scripts:
 
