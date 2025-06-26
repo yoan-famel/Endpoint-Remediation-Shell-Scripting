@@ -1,12 +1,12 @@
 ![alt text](https://github.com/yoan-famel/PowerShell/blob/main/Docs/Images/test-center-banner.jpg)
 
-# PowerShell Scripts Repository
+# Scripts Repository
 
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fyoan-famel%2FPowerShell%2F&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
 
-Welcome to my repository of PowerShell scripts! 
+Welcome to my scripts repository.
 
-Here you can find a collection of useful scripts to simplify and automate a range of processes and everyday tasks I have dealt with.
+This is a collection of scripts I've written to help automate and simplify various tasks and processes I've encountered in my day-to-day work. They're practical, lightweight, and meant to save time across common scenarios.
 
 ## Table of Contents
 
@@ -51,7 +51,7 @@ Here is a brief overview of the scripts you will find in this repository:
 
 ## Usage
 
-Please note that while some scripts can be used as-is, others may require amendments or configuration adjustments to run in your environment. It is essential to review the code within each file and modify them as needed.
+Please note that while some scripts can be used as-is, others may require amendments or configuration adjustments to run in your environment. It would be essential in some cases to review them, some are standalones other can be fully integrated to detections/remediations directly in Intune.
 
 Here's a general guide to running PowerShell scripts:
 
