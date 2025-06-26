@@ -13,7 +13,7 @@ This is a collection of scripts I've written to help automate and simplify vario
 - [Intro](#intro)
 - [Scripts](#scripts)
 - [Usage](#usage)
-- [Contributing](#contributing)
+- [Contribute](#contribute)
 
 ## Intro
 
@@ -66,7 +66,7 @@ Here's a general guide to running PowerShell scripts:
 
 Ensure that you have PowerShell installed, run as admin and execution policy set to allow running scripts if you encounter any issues.
 
-## Contributions
+## Contribute
 
 Contributions are welcome. :) If you have suggested improvements, bug fixes, or additional scripts you'd like to add, please do get in touch.
 
