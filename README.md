@@ -2,7 +2,7 @@
 
 # Scripts Repository
 
-[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fyoan-famel%2FEndpoint-Remediation%2F&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=visits&edge_flat=false)](https://hits.seeyoufarm.com)
+![Visitor Badge](https://visitor-badge.glitch.me/badge?page_id=yoan-famel.Endpoint-Remediation)
 
 Welcome to my scripts repository.
 
