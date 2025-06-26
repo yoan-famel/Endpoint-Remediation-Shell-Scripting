@@ -2,7 +2,7 @@
 
 # Scripts Repository
 
-[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fyoan-famel%2FPowerShell%2F&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fyoan-famel%2FEndpoint-Remediation%2F&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=visits&edge_flat=false)](https://hits.seeyoufarm.com)
 
 Welcome to my scripts repository.
 
@@ -10,16 +10,17 @@ This is a collection of scripts I've written to help automate and simplify vario
 
 ## Table of Contents
 
-- [Introduction](#introduction)
+- [Intro](#intro)
 - [Scripts](#scripts)
 - [Usage](#usage)
 - [Contributing](#contributing)
 
-## Introduction
+## Intro
 
-This repository houses a selection of PowerShell scripts designed to make your life easier. Whether you're a system administrator, or just looking to automate routine tasks, you will find something here to assist you.
+This repo includes mainly PowerShell scripts I've written to save time and make repetitive tasks easier to deal with.
+If you're managing systems, dealing with incident response and remediations or just want to automate repetitive things, you'll probably find something useful here.
 
-Feel free to explore the scripts, try them out, and contribute to the repository if you have improvements or additional scripts to share.
+Check out the scripts, test what you need, and feel free to contribute if you’ve got improvements or ideas to add.
 
 ## Scripts
 
@@ -51,20 +52,23 @@ Here is a brief overview of the scripts you will find in this repository:
 
 ## Usage
 
-Please note that while some scripts can be used as-is, others may require amendments or configuration adjustments to run in your environment. It would be essential in some cases to review them, some are standalones other can be fully integrated to detections/remediations directly in Intune.
+Please note that while some scripts can be used as-is, others may require amendments or configuration adjustments to run in your environment.
+In some cases it could be a good idea to review them, some are standalones while others can be fully integrated to detections/remediations from the get go to Intune.
+Since most are PowerShell for now anyway :)
 
 Here's a general guide to running PowerShell scripts:
 
-1. Clone this repository or download the script(s) you need.
+1. Clone the repo or download the script(s) you need.
 2. Open a PowerShell terminal.
 3. Navigate to the directory on your system where the script is located using `cd`.
 4. Run the script using `./scriptname.ps1`.
+5. Or tweak them/add them to your endpoint management system.
 
-Please ensure that you have PowerShell installed and execution policy set to allow running scripts if you encounter any issues.
+Ensure that you have PowerShell installed, run as admin and execution policy set to allow running scripts if you encounter any issues.
 
-## Contributing
+## Contributions
 
-Contributions are welcome! If you have improvements, bug fixes, or additional scripts you'd like to add, please follow these steps:
+Contributions are welcome. :) If you have suggested improvements, bug fixes, or additional scripts you'd like to add, please do get in touch.
 
 1. Fork this repository.
 2. Create a new branch for your changes: `git checkout -b feature/new-feature`.
@@ -72,4 +76,4 @@ Contributions are welcome! If you have improvements, bug fixes, or additional sc
 4. Push your changes to your fork: `git push origin feature/new-feature`.
 5. Create a Pull Request (PR) in this repository's `main` branch.
 
-Your contributions will be reviewed, and if everything looks good, they will be merged.
+Enjoy!
