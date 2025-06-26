@@ -57,7 +57,7 @@ Please note that while some scripts can be used as-is, others may require amendm
 In some cases it could be a good idea to review them, some are standalones while others can be fully integrated to detections/remediations from the get go to Intune.
 Since most are PowerShell for now anyway =)
 
-Here's a general guide to running PowerShell scripts:
+A general guide to running PowerShell scripts:
 
 1. Clone the repo or download the script(s) you need.
 2. Open a PowerShell terminal.
